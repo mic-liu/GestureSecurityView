@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F394A71BD3DD2100369B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394A61BD3DD2100369B5B /* main.m */; };
+		54F394AA1BD3DD2100369B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394A91BD3DD2100369B5B /* AppDelegate.m */; };
+		54F394AD1BD3DD2100369B5B /* LMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394AC1BD3DD2100369B5B /* LMCViewController.m */; };
+		54F394B21BD3DD2100369B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F394B11BD3DD2100369B5B /* Assets.xcassets */; };
+		54F394B51BD3DD2100369B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F394B31BD3DD2100369B5B /* LaunchScreen.storyboard */; };
+		54F394C01BD3DD2100369B5B /* GestureSecurityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394BF1BD3DD2100369B5B /* GestureSecurityViewTests.m */; };
+		54F394CB1BD3E09B00369B5B /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F394CA1BD3E09B00369B5B /* Main.xib */; settings = {ASSET_TAGS = (); }; };
+		54F394CD1BD3E18B00369B5B /* SecurityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F394CC1BD3E18B00369B5B /* SecurityView.xib */; settings = {ASSET_TAGS = (); }; };
+		54F394D01BD3E1BC00369B5B /* LMCGestureSecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394CF1BD3E1BC00369B5B /* LMCGestureSecurityViewController.m */; settings = {ASSET_TAGS = (); }; };
+		54F394D31BD526B900369B5B /* LMCGestureLinePathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394D21BD526B900369B5B /* LMCGestureLinePathView.m */; settings = {ASSET_TAGS = (); }; };
+		54F394D51BD6A89800369B5B /* self.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54F394D41BD6A89800369B5B /* self.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F394BC1BD3DD2100369B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F3949A1BD3DD2100369B5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F394A11BD3DD2100369B5B;
+			remoteInfo = GestureSecurityView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F394A21BD3DD2100369B5B /* GestureSecurityView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSecurityView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F394A61BD3DD2100369B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54F394A81BD3DD2100369B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54F394A91BD3DD2100369B5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54F394AB1BD3DD2100369B5B /* LMCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMCViewController.h; sourceTree = "<group>"; };
+		54F394AC1BD3DD2100369B5B /* LMCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCViewController.m; sourceTree = "<group>"; };
+		54F394B11BD3DD2100369B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F394B41BD3DD2100369B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F394B61BD3DD2100369B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F394BB1BD3DD2100369B5B /* GestureSecurityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureSecurityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F394BF1BD3DD2100369B5B /* GestureSecurityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureSecurityViewTests.m; sourceTree = "<group>"; };
+		54F394C11BD3DD2100369B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F394CA1BD3E09B00369B5B /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		54F394CC1BD3E18B00369B5B /* SecurityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecurityView.xib; sourceTree = "<group>"; };
+		54F394CE1BD3E1BC00369B5B /* LMCGestureSecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCGestureSecurityViewController.h; sourceTree = "<group>"; };
+		54F394CF1BD3E1BC00369B5B /* LMCGestureSecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCGestureSecurityViewController.m; sourceTree = "<group>"; };
+		54F394D11BD526B900369B5B /* LMCGestureLinePathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCGestureLinePathView.h; sourceTree = "<group>"; };
+		54F394D21BD526B900369B5B /* LMCGestureLinePathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCGestureLinePathView.m; sourceTree = "<group>"; };
+		54F394D41BD6A89800369B5B /* self.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = self.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F3949F1BD3DD2100369B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F394B81BD3DD2100369B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F394991BD3DD2100369B5B = {
+			isa = PBXGroup;
+			children = (
+				54F394A41BD3DD2100369B5B /* GestureSecurityView */,
+				54F394BE1BD3DD2100369B5B /* GestureSecurityViewTests */,
+				54F394A31BD3DD2100369B5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F394A31BD3DD2100369B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F394A21BD3DD2100369B5B /* GestureSecurityView.app */,
+				54F394BB1BD3DD2100369B5B /* GestureSecurityViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F394A41BD3DD2100369B5B /* GestureSecurityView */ = {
+			isa = PBXGroup;
+			children = (
+				54F394A81BD3DD2100369B5B /* AppDelegate.h */,
+				54F394A91BD3DD2100369B5B /* AppDelegate.m */,
+				54F394D11BD526B900369B5B /* LMCGestureLinePathView.h */,
+				54F394D21BD526B900369B5B /* LMCGestureLinePathView.m */,
+				54F394CC1BD3E18B00369B5B /* SecurityView.xib */,
+				54F394CE1BD3E1BC00369B5B /* LMCGestureSecurityViewController.h */,
+				54F394CF1BD3E1BC00369B5B /* LMCGestureSecurityViewController.m */,
+				54F394AB1BD3DD2100369B5B /* LMCViewController.h */,
+				54F394AC1BD3DD2100369B5B /* LMCViewController.m */,
+				54F394CA1BD3E09B00369B5B /* Main.xib */,
+				54F394B11BD3DD2100369B5B /* Assets.xcassets */,
+				54F394B31BD3DD2100369B5B /* LaunchScreen.storyboard */,
+				54F394B61BD3DD2100369B5B /* Info.plist */,
+				54F394A51BD3DD2100369B5B /* Supporting Files */,
+			);
+			path = GestureSecurityView;
+			sourceTree = "<group>";
+		};
+		54F394A51BD3DD2100369B5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F394D41BD6A89800369B5B /* self.jpg */,
+				54F394A61BD3DD2100369B5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54F394BE1BD3DD2100369B5B /* GestureSecurityViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F394BF1BD3DD2100369B5B /* GestureSecurityViewTests.m */,
+				54F394C11BD3DD2100369B5B /* Info.plist */,
+			);
+			path = GestureSecurityViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F394A11BD3DD2100369B5B /* GestureSecurityView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F394C41BD3DD2100369B5B /* Build configuration list for PBXNativeTarget "GestureSecurityView" */;
+			buildPhases = (
+				54F3949E1BD3DD2100369B5B /* Sources */,
+				54F3949F1BD3DD2100369B5B /* Frameworks */,
+				54F394A01BD3DD2100369B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureSecurityView;
+			productName = GestureSecurityView;
+			productReference = 54F394A21BD3DD2100369B5B /* GestureSecurityView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F394BA1BD3DD2100369B5B /* GestureSecurityViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F394C71BD3DD2100369B5B /* Build configuration list for PBXNativeTarget "GestureSecurityViewTests" */;
+			buildPhases = (
+				54F394B71BD3DD2100369B5B /* Sources */,
+				54F394B81BD3DD2100369B5B /* Frameworks */,
+				54F394B91BD3DD2100369B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F394BD1BD3DD2100369B5B /* PBXTargetDependency */,
+			);
+			name = GestureSecurityViewTests;
+			productName = GestureSecurityViewTests;
+			productReference = 54F394BB1BD3DD2100369B5B /* GestureSecurityViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F3949A1BD3DD2100369B5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = LMC;
+				TargetAttributes = {
+					54F394A11BD3DD2100369B5B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					54F394BA1BD3DD2100369B5B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 54F394A11BD3DD2100369B5B;
+					};
+				};
+			};
+			buildConfigurationList = 54F3949D1BD3DD2100369B5B /* Build configuration list for PBXProject "GestureSecurityView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F394991BD3DD2100369B5B;
+			productRefGroup = 54F394A31BD3DD2100369B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F394A11BD3DD2100369B5B /* GestureSecurityView */,
+				54F394BA1BD3DD2100369B5B /* GestureSecurityViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F394A01BD3DD2100369B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F394D51BD6A89800369B5B /* self.jpg in Resources */,
+				54F394CD1BD3E18B00369B5B /* SecurityView.xib in Resources */,
+				54F394B51BD3DD2100369B5B /* LaunchScreen.storyboard in Resources */,
+				54F394B21BD3DD2100369B5B /* Assets.xcassets in Resources */,
+				54F394CB1BD3E09B00369B5B /* Main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F394B91BD3DD2100369B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F3949E1BD3DD2100369B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F394AD1BD3DD2100369B5B /* LMCViewController.m in Sources */,
+				54F394AA1BD3DD2100369B5B /* AppDelegate.m in Sources */,
+				54F394A71BD3DD2100369B5B /* main.m in Sources */,
+				54F394D31BD526B900369B5B /* LMCGestureLinePathView.m in Sources */,
+				54F394D01BD3E1BC00369B5B /* LMCGestureSecurityViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F394B71BD3DD2100369B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F394C01BD3DD2100369B5B /* GestureSecurityViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F394BD1BD3DD2100369B5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F394A11BD3DD2100369B5B /* GestureSecurityView */;
+			targetProxy = 54F394BC1BD3DD2100369B5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F394B31BD3DD2100369B5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F394B41BD3DD2100369B5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F394C21BD3DD2100369B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54F394C31BD3DD2100369B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F394C51BD3DD2100369B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestureSecurityView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnjttd.GestureSecurityView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F394C61BD3DD2100369B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestureSecurityView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnjttd.GestureSecurityView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54F394C81BD3DD2100369B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GestureSecurityViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnjttd.GestureSecurityViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureSecurityView.app/GestureSecurityView";
+			};
+			name = Debug;
+		};
+		54F394C91BD3DD2100369B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GestureSecurityViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnjttd.GestureSecurityViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestureSecurityView.app/GestureSecurityView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F3949D1BD3DD2100369B5B /* Build configuration list for PBXProject "GestureSecurityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F394C21BD3DD2100369B5B /* Debug */,
+				54F394C31BD3DD2100369B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F394C41BD3DD2100369B5B /* Build configuration list for PBXNativeTarget "GestureSecurityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F394C51BD3DD2100369B5B /* Debug */,
+				54F394C61BD3DD2100369B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F394C71BD3DD2100369B5B /* Build configuration list for PBXNativeTarget "GestureSecurityViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F394C81BD3DD2100369B5B /* Debug */,
+				54F394C91BD3DD2100369B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F3949A1BD3DD2100369B5B /* Project object */;
+}
