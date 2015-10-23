@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		548F1C591BDA8124008F28F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 548F1C561BDA8124008F28F8 /* Icon.png */; settings = {ASSET_TAGS = (); }; };
+		548F1C5A1BDA8124008F28F8 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 548F1C571BDA8124008F28F8 /* Icon-60@3x.png */; settings = {ASSET_TAGS = (); }; };
+		548F1C5B1BDA8124008F28F8 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 548F1C581BDA8124008F28F8 /* Icon-60@2x.png */; settings = {ASSET_TAGS = (); }; };
 		54F394A71BD3DD2100369B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394A61BD3DD2100369B5B /* main.m */; };
 		54F394AA1BD3DD2100369B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394A91BD3DD2100369B5B /* AppDelegate.m */; };
 		54F394AD1BD3DD2100369B5B /* LMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F394AC1BD3DD2100369B5B /* LMCViewController.m */; };
@@ -31,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		548F1C561BDA8124008F28F8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		548F1C571BDA8124008F28F8 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		548F1C581BDA8124008F28F8 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		54F394A21BD3DD2100369B5B /* GestureSecurityView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSecurityView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F394A61BD3DD2100369B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54F394A81BD3DD2100369B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 		54F394A51BD3DD2100369B5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				548F1C561BDA8124008F28F8 /* Icon.png */,
+				548F1C571BDA8124008F28F8 /* Icon-60@3x.png */,
+				548F1C581BDA8124008F28F8 /* Icon-60@2x.png */,
 				54F394D41BD6A89800369B5B /* self.jpg */,
 				54F394A61BD3DD2100369B5B /* main.m */,
 			);
@@ -207,11 +216,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				548F1C591BDA8124008F28F8 /* Icon.png in Resources */,
 				54F394D51BD6A89800369B5B /* self.jpg in Resources */,
 				54F394CD1BD3E18B00369B5B /* SecurityView.xib in Resources */,
 				54F394B51BD3DD2100369B5B /* LaunchScreen.storyboard in Resources */,
+				548F1C5A1BDA8124008F28F8 /* Icon-60@3x.png in Resources */,
 				54F394B21BD3DD2100369B5B /* Assets.xcassets in Resources */,
 				54F394CB1BD3E09B00369B5B /* Main.xib in Resources */,
+				548F1C5B1BDA8124008F28F8 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				54F394C61BD3DD2100369B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F394C71BD3DD2100369B5B /* Build configuration list for PBXNativeTarget "GestureSecurityViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				54F394C91BD3DD2100369B5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
